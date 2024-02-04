@@ -61,11 +61,19 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__conteudo__lista__marcada {
-background-color: var(--cor-secundaria);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+    background-color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo__lista__numerada {
-background-color: var(--cor-secundaria);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+    background-color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo__link {
